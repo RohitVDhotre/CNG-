@@ -181,5 +181,11 @@ def main():
         else:
             st.warning("Record not found")
 
+    # Display developer info
+    st.header("About the Developer")
+    st.image("developer_photo.jpg", width=180)
+    st.write("This app was developed by :red[Rohit Vikas Dhotre].")
+    st.write("You can contact me at :red[rohitdhotre29112001@gmail.com].")
+
 if __name__ == '__main__':
     main()
